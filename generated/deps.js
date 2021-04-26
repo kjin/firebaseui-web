@@ -1,20 +1,17 @@
 goog.addDependency(
   "../../../../generated/elements.soy.js",
   ["firebaseui.auth.soy2.element"],
-  ["goog.asserts", "soy", "soydata"],
-  {}
+  ["goog.asserts", "soy", "soydata"]
 );
 goog.addDependency(
   "../../../../generated/pages.soy.js",
   ["firebaseui.auth.soy2.page"],
-  ["firebaseui.auth.soy2.element", "goog.asserts", "soy", "soydata"],
-  {}
+  ["firebaseui.auth.soy2.element", "goog.asserts", "soy", "soydata"]
 );
 goog.addDependency(
   "../../../../generated/strings.soy.js",
   ["firebaseui.auth.soy2.strings"],
-  ["goog.asserts", "soy", "soydata"],
-  {}
+  ["goog.asserts", "soy", "soydata"]
 );
 goog.addDependency(
   "../../../../javascript/data/country.js",
@@ -26,7 +23,7 @@ goog.addDependency(
     "firebaseui.auth.data.country.LookupTree",
   ],
   ["goog.structs.Trie"],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/data/country_test.js",
@@ -38,8 +35,7 @@ goog.addDependency(
     "goog.testing.jsunit",
     "goog.userAgent",
     "goog.userAgent.product",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/testing/acclient.js",
@@ -50,19 +46,19 @@ goog.addDependency(
     "goog.Disposable",
     "goog.testing.PropertyReplacer",
   ],
-  { module: "goog" }
+  { lang: "es6", module: "goog" }
 );
 goog.addDependency(
   "../../../../javascript/testing/appclient.js",
   ["firebaseui.auth.testing.FakeAppClient"],
   ["firebaseui.auth.testing.FakeAuthClient", "goog.Disposable", "goog.Promise"],
-  { module: "goog" }
+  { lang: "es6", module: "goog" }
 );
 goog.addDependency(
   "../../../../javascript/testing/auth.js",
   ["firebaseui.auth.testing.FakeAuthClient"],
   ["firebaseui.auth.testing.MockHelper", "goog.Uri", "goog.array"],
-  { module: "goog" }
+  { lang: "es6", module: "goog" }
 );
 goog.addDependency(
   "../../../../javascript/testing/auth_test.js",
@@ -72,44 +68,42 @@ goog.addDependency(
     "goog.Promise",
     "goog.testing.AsyncTestCase",
     "goog.testing.jsunit",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/testing/cookiestorage.js",
   ["firebaseui.auth.testing.FakeCookieStorage"],
   ["goog.Disposable", "goog.net.cookies", "goog.testing.PropertyReplacer"],
-  { module: "goog" }
+  { lang: "es6", module: "goog" }
 );
 goog.addDependency(
   "../../../../javascript/testing/mockhelper.js",
   ["firebaseui.auth.testing.MockHelper"],
   ["goog.Disposable", "goog.Promise"],
-  { module: "goog" }
+  { lang: "es6", module: "goog" }
 );
 goog.addDependency(
   "../../../../javascript/testing/mockhelper_test.js",
   ["firebaseui.auth.MockHelperTest"],
   ["firebaseui.auth.testing.MockHelper", "goog.testing.jsunit"],
-  {}
+  { lang: "es5" }
 );
 goog.addDependency(
   "../../../../javascript/testing/recaptchaverifier.js",
   ["firebaseui.auth.testing.RecaptchaVerifier"],
   ["firebaseui.auth.testing.MockHelper", "goog.object"],
-  { module: "goog" }
+  { lang: "es6", module: "goog" }
 );
 goog.addDependency(
   "../../../../javascript/testing/recaptchaverifier_test.js",
   ["firebaseui.auth.RecaptchaVerifierTest"],
-  ["firebaseui.auth.testing.RecaptchaVerifier", "goog.testing.jsunit"],
-  {}
+  ["firebaseui.auth.testing.RecaptchaVerifier", "goog.testing.jsunit"]
 );
 goog.addDependency(
   "../../../../javascript/testing/util.js",
   ["firebaseui.auth.testing.FakeUtil"],
   ["firebaseui.auth.util", "goog.Disposable", "goog.testing.PropertyReplacer"],
-  { module: "goog" }
+  { lang: "es6", module: "goog" }
 );
 goog.addDependency(
   "../../../../javascript/ui/element/common.js",
@@ -128,8 +122,7 @@ goog.addDependency(
     "goog.events.KeyHandler",
     "goog.events.KeyHandler.EventType",
     "goog.ui.Component",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/common_test.js",
@@ -140,14 +133,12 @@ goog.addDependency(
     "goog.dom.TagName",
     "goog.dom.classlist",
     "goog.testing.jsunit",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/dialog.js",
   ["firebaseui.auth.ui.element.dialog"],
-  ["firebaseui.auth.ui.element", "firebaseui.auth.ui.mdl", "goog.dom"],
-  {}
+  ["firebaseui.auth.ui.element", "firebaseui.auth.ui.mdl", "goog.dom"]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/dialog_test.js",
@@ -165,8 +156,7 @@ goog.addDependency(
     "goog.testing.events",
     "goog.testing.jsunit",
     "goog.ui.Component",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/elementtesthelper.js",
@@ -181,8 +171,7 @@ goog.addDependency(
     "goog.testing.events",
     "goog.testing.events.Event",
     "goog.ui.Component",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/email.js",
@@ -194,8 +183,7 @@ goog.addDependency(
     "goog.format.EmailAddress",
     "goog.string",
     "goog.ui.Component",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/emailtesthelper.js",
@@ -207,14 +195,12 @@ goog.addDependency(
     "goog.dom.forms",
     "goog.events.KeyCodes",
     "goog.testing.events",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/form.js",
   ["firebaseui.auth.ui.element.form"],
-  ["firebaseui.auth.ui.element", "goog.ui.Component"],
-  {}
+  ["firebaseui.auth.ui.element", "goog.ui.Component"]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/formtesthelper.js",
@@ -224,14 +210,12 @@ goog.addDependency(
     "firebaseui.auth.ui.element.ElementTestHelper",
     "goog.events.KeyCodes",
     "goog.testing.events",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/idps.js",
   ["firebaseui.auth.ui.element.idps"],
-  ["firebaseui.auth.ui.element", "goog.asserts", "goog.dom.dataset"],
-  {}
+  ["firebaseui.auth.ui.element", "goog.asserts", "goog.dom.dataset"]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/idpstesthelper.js",
@@ -243,8 +227,7 @@ goog.addDependency(
     "goog.dom.dataset",
     "goog.events.KeyCodes",
     "goog.testing.events",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/infobar.js",
@@ -255,8 +238,7 @@ goog.addDependency(
     "goog.dom",
     "goog.soy",
     "goog.ui.Component",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/infobartesthelper.js",
@@ -267,8 +249,7 @@ goog.addDependency(
     "goog.dom",
     "goog.events.KeyCodes",
     "goog.testing.events",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/listboxdialog.js",
@@ -283,8 +264,7 @@ goog.addDependency(
     "goog.soy",
     "goog.style",
     "goog.ui.Component",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/listboxdialog_test.js",
@@ -301,8 +281,7 @@ goog.addDependency(
     "goog.testing.jsunit",
     "goog.testing.mockmatchers.SaveArgument",
     "goog.ui.Component",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/name.js",
@@ -313,8 +292,7 @@ goog.addDependency(
     "goog.asserts",
     "goog.string",
     "goog.ui.Component",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/nametesthelper.js",
@@ -325,8 +303,7 @@ goog.addDependency(
     "firebaseui.auth.ui.element.ElementTestHelper",
     "goog.dom.forms",
     "goog.events.KeyCodes",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/newpassword.js",
@@ -335,8 +312,7 @@ goog.addDependency(
     "firebaseui.auth.soy2.strings",
     "firebaseui.auth.ui.element",
     "goog.dom.classlist",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/newpasswordtesthelper.js",
@@ -350,8 +326,7 @@ goog.addDependency(
     "goog.events.KeyCodes",
     "goog.testing.events",
     "goog.userAgent",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/password.js",
@@ -360,8 +335,7 @@ goog.addDependency(
     "firebaseui.auth.soy2.strings",
     "firebaseui.auth.ui.element",
     "goog.ui.Component",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/passwordtesthelper.js",
@@ -373,14 +347,12 @@ goog.addDependency(
     "goog.dom",
     "goog.dom.forms",
     "goog.events.KeyCodes",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/phoneconfirmationcode.js",
   ["firebaseui.auth.ui.element.phoneConfirmationCode"],
-  ["firebaseui.auth.ui.element", "goog.string", "goog.ui.Component"],
-  {}
+  ["firebaseui.auth.ui.element", "goog.string", "goog.ui.Component"]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/phoneconfirmationcodetesthelper.js",
@@ -392,7 +364,7 @@ goog.addDependency(
     "goog.dom.forms",
     "goog.events.KeyCodes",
   ],
-  {}
+  { lang: "es5" }
 );
 goog.addDependency(
   "../../../../javascript/ui/element/phonenumber.js",
@@ -412,8 +384,7 @@ goog.addDependency(
     "goog.dom.forms",
     "goog.string",
     "goog.ui.Component",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/phonenumbertesthelper.js",
@@ -427,8 +398,7 @@ goog.addDependency(
     "goog.dom.forms",
     "goog.events.KeyCodes",
     "goog.testing.events",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/progressdialog.js",
@@ -443,19 +413,17 @@ goog.addDependency(
     "goog.soy",
     "goog.ui.Component",
   ],
-  {}
+  { lang: "es5" }
 );
 goog.addDependency(
   "../../../../javascript/ui/element/recaptcha.js",
   ["firebaseui.auth.ui.element.recaptcha"],
-  ["firebaseui.auth.ui.element"],
-  {}
+  ["firebaseui.auth.ui.element"]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/recaptchatesthelper.js",
   ["firebaseui.auth.ui.element.RecaptchaTestHelper"],
-  ["firebaseui.auth.ui.element"],
-  {}
+  ["firebaseui.auth.ui.element"]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/resend.js",
@@ -465,8 +433,7 @@ goog.addDependency(
     "firebaseui.auth.ui.element",
     "goog.dom",
     "goog.ui.Component",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/resendtesthelper.js",
@@ -476,32 +443,27 @@ goog.addDependency(
     "firebaseui.auth.ui.element",
     "goog.dom",
     "goog.dom.classlist",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/tospp.js",
   ["firebaseui.auth.ui.element.tospp"],
-  ["firebaseui.auth.ui.element", "goog.ui.Component"],
-  {}
+  ["firebaseui.auth.ui.element", "goog.ui.Component"]
 );
 goog.addDependency(
   "../../../../javascript/ui/element/tospptesthelper.js",
   ["firebaseui.auth.ui.element.TosPpTestHelper"],
-  ["firebaseui.auth.ui.element", "goog.testing.events"],
-  {}
+  ["firebaseui.auth.ui.element", "goog.testing.events"]
 );
 goog.addDependency(
   "../../../../javascript/ui/mdl.js",
   ["firebaseui.auth.ui.mdl"],
-  ["goog.array", "goog.dom", "goog.dom.classlist"],
-  {}
+  ["goog.array", "goog.dom", "goog.dom.classlist"]
 );
 goog.addDependency(
   "../../../../javascript/ui/mdl_test.js",
   ["firebaseui.auth.ui.mdlTest"],
-  ["firebaseui.auth.ui.mdl", "goog.testing.MockControl", "goog.testing.jsunit"],
-  {}
+  ["firebaseui.auth.ui.mdl", "goog.testing.MockControl", "goog.testing.jsunit"]
 );
 goog.addDependency(
   "../../../../javascript/ui/page/anonymoususermismatch.js",
@@ -512,7 +474,7 @@ goog.addDependency(
     "firebaseui.auth.ui.element.form",
     "firebaseui.auth.ui.page.Base",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/anonymoususermismatch_test.js",
@@ -525,8 +487,7 @@ goog.addDependency(
     "goog.dom.TagName",
     "goog.testing.MockClock",
     "goog.testing.jsunit",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/page/base.js",
@@ -547,13 +508,13 @@ goog.addDependency(
     "goog.soy",
     "goog.ui.Component",
   ],
-  {}
+  { lang: "es5" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/blank.js",
   ["firebaseui.auth.ui.page.Blank"],
   ["firebaseui.auth.soy2.page", "firebaseui.auth.ui.page.Base"],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/blank_test.js",
@@ -565,14 +526,13 @@ goog.addDependency(
     "goog.dom.TagName",
     "goog.testing.MockClock",
     "goog.testing.jsunit",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/page/callback.js",
   ["firebaseui.auth.ui.page.Callback"],
   ["firebaseui.auth.soy2.page", "firebaseui.auth.ui.page.Base"],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/callback_test.js",
@@ -585,8 +545,7 @@ goog.addDependency(
     "goog.dom.TagName",
     "goog.testing.MockClock",
     "goog.testing.jsunit",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/page/differentdeviceerror.js",
@@ -597,7 +556,7 @@ goog.addDependency(
     "firebaseui.auth.ui.element.form",
     "firebaseui.auth.ui.page.Base",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/differentdeviceerror_test.js",
@@ -610,8 +569,7 @@ goog.addDependency(
     "goog.dom.TagName",
     "goog.testing.MockClock",
     "goog.testing.jsunit",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/page/emailchangerevoke.js",
@@ -622,7 +580,7 @@ goog.addDependency(
     "firebaseui.auth.ui.element.form",
     "firebaseui.auth.ui.page.Base",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/emailchangerevoke_test.js",
@@ -637,8 +595,7 @@ goog.addDependency(
     "goog.testing.MockClock",
     "goog.testing.events",
     "goog.testing.jsunit",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/page/emaillinksigninconfirmation.js",
@@ -651,7 +608,7 @@ goog.addDependency(
     "firebaseui.auth.ui.page.Base",
     "goog.dom.selection",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/emaillinksigninconfirmation_test.js",
@@ -669,8 +626,7 @@ goog.addDependency(
     "goog.testing.MockClock",
     "goog.testing.events",
     "goog.testing.jsunit",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/page/emaillinksigninlinking.js",
@@ -680,7 +636,7 @@ goog.addDependency(
     "firebaseui.auth.ui.element.form",
     "firebaseui.auth.ui.page.Base",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/emaillinksigninlinking_test.js",
@@ -695,8 +651,7 @@ goog.addDependency(
     "goog.dom.TagName",
     "goog.testing.MockClock",
     "goog.testing.jsunit",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/page/emaillinksigninlinkingdifferentdevice.js",
@@ -706,7 +661,7 @@ goog.addDependency(
     "firebaseui.auth.ui.element.form",
     "firebaseui.auth.ui.page.Base",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/emaillinksigninsent.js",
@@ -717,7 +672,7 @@ goog.addDependency(
     "firebaseui.auth.ui.element.form",
     "firebaseui.auth.ui.page.Base",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/emaillinksigninsent_test.js",
@@ -732,8 +687,7 @@ goog.addDependency(
     "goog.testing.MockClock",
     "goog.testing.events",
     "goog.testing.jsunit",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/page/emailmismatch.js",
@@ -743,7 +697,7 @@ goog.addDependency(
     "firebaseui.auth.ui.element.form",
     "firebaseui.auth.ui.page.Base",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/emailmismatch_test.js",
@@ -758,8 +712,7 @@ goog.addDependency(
     "goog.testing.MockClock",
     "goog.testing.jsunit",
     "goog.userAgent",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/page/emailnotreceived.js",
@@ -770,7 +723,7 @@ goog.addDependency(
     "firebaseui.auth.ui.element.form",
     "firebaseui.auth.ui.page.Base",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/emailnotreceived_test.js",
@@ -785,8 +738,7 @@ goog.addDependency(
     "goog.testing.MockClock",
     "goog.testing.events",
     "goog.testing.jsunit",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/page/federatedlinking.js",
@@ -797,7 +749,7 @@ goog.addDependency(
     "firebaseui.auth.ui.element.form",
     "firebaseui.auth.ui.page.Base",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/federatedlinking_test.js",
@@ -813,8 +765,7 @@ goog.addDependency(
     "goog.testing.MockClock",
     "goog.testing.jsunit",
     "goog.userAgent",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/page/notice.js",
@@ -839,8 +790,7 @@ goog.addDependency(
     "firebaseui.auth.soy2.page",
     "firebaseui.auth.ui.element.form",
     "firebaseui.auth.ui.page.Base",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/page/notice_test.js",
@@ -867,8 +817,7 @@ goog.addDependency(
     "goog.testing.MockClock",
     "goog.testing.jsunit",
     "goog.userAgent",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/page/pagetesthelper.js",
@@ -881,8 +830,7 @@ goog.addDependency(
     "goog.dom",
     "goog.dom.classlist",
     "goog.events",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/page/passwordlinking.js",
@@ -895,7 +843,7 @@ goog.addDependency(
     "firebaseui.auth.ui.page.Base",
     "goog.asserts",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/passwordlinking_test.js",
@@ -914,8 +862,7 @@ goog.addDependency(
     "goog.testing.events",
     "goog.testing.jsunit",
     "goog.userAgent",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/page/passwordrecovery.js",
@@ -927,7 +874,7 @@ goog.addDependency(
     "firebaseui.auth.ui.element.form",
     "firebaseui.auth.ui.page.Base",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/passwordrecovery_test.js",
@@ -944,8 +891,7 @@ goog.addDependency(
     "goog.testing.MockClock",
     "goog.testing.jsunit",
     "goog.userAgent",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/page/passwordreset.js",
@@ -956,7 +902,7 @@ goog.addDependency(
     "firebaseui.auth.ui.element.newPassword",
     "firebaseui.auth.ui.page.Base",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/passwordreset_test.js",
@@ -974,8 +920,7 @@ goog.addDependency(
     "goog.testing.events",
     "goog.testing.jsunit",
     "goog.userAgent",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/page/passwordsignin.js",
@@ -988,7 +933,7 @@ goog.addDependency(
     "firebaseui.auth.ui.element.password",
     "firebaseui.auth.ui.page.Base",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/passwordsignin_test.js",
@@ -1008,8 +953,7 @@ goog.addDependency(
     "goog.testing.events",
     "goog.testing.jsunit",
     "goog.userAgent",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/page/passwordsignup.js",
@@ -1023,7 +967,7 @@ goog.addDependency(
     "firebaseui.auth.ui.element.newPassword",
     "firebaseui.auth.ui.page.Base",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/passwordsignup_test.js",
@@ -1044,8 +988,7 @@ goog.addDependency(
     "goog.testing.events",
     "goog.testing.jsunit",
     "goog.userAgent",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/page/phonesigninfinish.js",
@@ -1060,7 +1003,7 @@ goog.addDependency(
     "goog.Timer",
     "goog.events",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/phonesigninfinish_test.js",
@@ -1080,8 +1023,7 @@ goog.addDependency(
     "goog.testing.MockClock",
     "goog.testing.events",
     "goog.testing.jsunit",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/page/phonesigninstart.js",
@@ -1096,7 +1038,7 @@ goog.addDependency(
     "firebaseui.auth.ui.page.Base",
     "goog.dom.selection",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/phonesigninstart_test.js",
@@ -1119,8 +1061,7 @@ goog.addDependency(
     "goog.testing.MockClock",
     "goog.testing.events",
     "goog.testing.jsunit",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/page/providermatchbyemail.js",
@@ -1132,7 +1073,7 @@ goog.addDependency(
     "firebaseui.auth.ui.page.Base",
     "goog.dom.selection",
   ],
-  { module: "goog" }
+  { lang: "es6", module: "goog" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/providermatchbyemail_test.js",
@@ -1151,8 +1092,7 @@ goog.addDependency(
     "goog.testing.events",
     "goog.testing.jsunit",
     "goog.userAgent",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/page/providersignin.js",
@@ -1162,7 +1102,7 @@ goog.addDependency(
     "firebaseui.auth.ui.element.idps",
     "firebaseui.auth.ui.page.Base",
   ],
-  { module: "goog" }
+  { lang: "es6", module: "goog" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/providersignin_test.js",
@@ -1178,7 +1118,7 @@ goog.addDependency(
     "goog.testing.MockClock",
     "goog.testing.testSuite",
   ],
-  { module: "goog" }
+  { lang: "es6", module: "goog" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/revertsecondfactoradditionsuccess.js",
@@ -1189,7 +1129,7 @@ goog.addDependency(
     "firebaseui.auth.ui.element.form",
     "firebaseui.auth.ui.page.Base",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/revertsecondfactoradditionsuccess_test.js",
@@ -1206,7 +1146,7 @@ goog.addDependency(
     "goog.testing.jsunit",
     "goog.userAgent",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/selecttenant.js",
@@ -1217,7 +1157,7 @@ goog.addDependency(
     "firebaseui.auth.ui.page.Base",
     "goog.dom.dataset",
   ],
-  { module: "goog" }
+  { lang: "es6", module: "goog" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/selecttenant_test.js",
@@ -1233,7 +1173,7 @@ goog.addDependency(
     "goog.testing.events",
     "goog.testing.testSuite",
   ],
-  { module: "goog" }
+  { lang: "es6", module: "goog" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/signin.js",
@@ -1246,7 +1186,7 @@ goog.addDependency(
     "firebaseui.auth.ui.page.Base",
     "goog.dom.selection",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/signin_test.js",
@@ -1266,14 +1206,13 @@ goog.addDependency(
     "goog.testing.events",
     "goog.testing.jsunit",
     "goog.userAgent",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/page/spinner.js",
   ["firebaseui.auth.ui.page.Spinner"],
   ["firebaseui.auth.soy2.page", "firebaseui.auth.ui.page.Base"],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/spinner_test.js",
@@ -1285,8 +1224,7 @@ goog.addDependency(
     "goog.dom.TagName",
     "goog.testing.MockClock",
     "goog.testing.jsunit",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/ui/page/unauthorizeduser.js",
@@ -1297,7 +1235,7 @@ goog.addDependency(
     "firebaseui.auth.ui.element.form",
     "firebaseui.auth.ui.page.Base",
   ],
-  { module: "goog" }
+  { lang: "es6", module: "goog" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/unauthorizeduser_test.js",
@@ -1313,7 +1251,7 @@ goog.addDependency(
     "goog.testing.events",
     "goog.testing.testSuite",
   ],
-  { module: "goog" }
+  { lang: "es6", module: "goog" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/unsupportedprovider.js",
@@ -1324,7 +1262,7 @@ goog.addDependency(
     "firebaseui.auth.ui.element.form",
     "firebaseui.auth.ui.page.Base",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/ui/page/unsupportedprovider_test.js",
@@ -1339,14 +1277,13 @@ goog.addDependency(
     "goog.testing.MockClock",
     "goog.testing.jsunit",
     "goog.userAgent",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/utils/acclient.js",
   ["firebaseui.auth.acClient"],
   ["firebaseui.auth.Account", "goog.Uri", "goog.array", "goog.asserts"],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/utils/acclient_test.js",
@@ -1359,50 +1296,46 @@ goog.addDependency(
     "goog.testing.jsunit",
     "goog.testing.mockmatchers.ObjectEquals",
     "goog.testing.recordFunction",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/utils/account.js",
   ["firebaseui.auth.Account"],
   [],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/utils/account_test.js",
   ["firebaseui.auth.AccountTest"],
-  ["firebaseui.auth.Account", "goog.testing.jsunit"],
-  {}
+  ["firebaseui.auth.Account", "goog.testing.jsunit"]
 );
 goog.addDependency(
   "../../../../javascript/utils/actioncodeurlbuilder.js",
   ["firebaseui.auth.ActionCodeUrlBuilder"],
   ["goog.Uri"],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/utils/actioncodeurlbuilder_test.js",
   ["firebaseui.auth.ActionCodeUrlBuilderTest"],
-  ["firebaseui.auth.ActionCodeUrlBuilder", "goog.testing.jsunit"],
-  {}
+  ["firebaseui.auth.ActionCodeUrlBuilder", "goog.testing.jsunit"]
 );
 goog.addDependency(
   "../../../../javascript/utils/config.js",
   ["firebaseui.auth.Config"],
   [],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/utils/config_test.js",
   ["firebaseui.auth.ConfigTest"],
-  ["firebaseui.auth.Config", "goog.testing.jsunit"],
-  {}
+  ["firebaseui.auth.Config", "goog.testing.jsunit"]
 );
 goog.addDependency(
   "../../../../javascript/utils/cookiemechanism.js",
   ["firebaseui.auth.CookieMechanism"],
   ["goog.net.cookies", "goog.storage.mechanism.Mechanism"],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/utils/cookiemechanism_test.js",
@@ -1413,14 +1346,12 @@ goog.addDependency(
     "goog.testing.MockControl",
     "goog.testing.jsunit",
     "goog.testing.mockmatchers",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/utils/crypt.js",
   ["firebaseui.auth.crypt"],
-  ["goog.array", "goog.crypt", "goog.crypt.Aes"],
-  {}
+  ["goog.array", "goog.crypt", "goog.crypt.Aes"]
 );
 goog.addDependency(
   "../../../../javascript/utils/crypt_test.js",
@@ -1432,13 +1363,13 @@ goog.addDependency(
     "goog.crypt",
     "goog.testing.jsunit",
   ],
-  {}
+  { lang: "es5" }
 );
 goog.addDependency(
   "../../../../javascript/utils/eventregister.js",
   ["firebaseui.auth.EventDispatcher", "firebaseui.auth.EventRegister"],
   ["goog.array", "goog.events.EventTarget"],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/utils/eventregister_test.js",
@@ -1450,8 +1381,7 @@ goog.addDependency(
     "goog.dom.TagName",
     "goog.events",
     "goog.testing.jsunit",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/utils/googleyolo.js",
@@ -1463,7 +1393,7 @@ goog.addDependency(
     "goog.net.jsloader",
     "goog.string.Const",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/utils/googleyolo_test.js",
@@ -1481,43 +1411,39 @@ goog.addDependency(
     "goog.testing.jsunit",
     "goog.testing.mockmatchers",
   ],
-  {}
+  { lang: "es5" }
 );
 goog.addDependency(
   "../../../../javascript/utils/idp.js",
   ["firebaseui.auth.idp"],
-  ["goog.array", "goog.object"],
-  {}
+  ["goog.array", "goog.object"]
 );
 goog.addDependency(
   "../../../../javascript/utils/idp_test.js",
   ["firebaseui.auth.idpTest"],
-  ["firebaseui.auth.idp", "goog.testing.jsunit", "goog.testing.recordFunction"],
-  {}
+  ["firebaseui.auth.idp", "goog.testing.jsunit", "goog.testing.recordFunction"]
 );
 goog.addDependency(
   "../../../../javascript/utils/log.js",
   ["firebaseui.auth.log"],
-  ["goog.debug.Console", "goog.log"],
-  {}
+  ["goog.debug.Console", "goog.log"]
 );
 goog.addDependency(
   "../../../../javascript/utils/pendingemailcredential.js",
   ["firebaseui.auth.PendingEmailCredential"],
   [],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/utils/pendingemailcredential_test.js",
   ["firebaseui.auth.PendingEmailCredentialTest"],
-  ["firebaseui.auth.PendingEmailCredential", "goog.testing.jsunit"],
-  {}
+  ["firebaseui.auth.PendingEmailCredential", "goog.testing.jsunit"]
 );
 goog.addDependency(
   "../../../../javascript/utils/phoneauthresult.js",
   ["firebaseui.auth.PhoneAuthResult"],
   ["goog.Promise"],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/utils/phoneauthresult_test.js",
@@ -1527,44 +1453,40 @@ goog.addDependency(
     "goog.Promise",
     "goog.testing.jsunit",
     "goog.testing.recordFunction",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/utils/phonenumber.js",
   ["firebaseui.auth.PhoneNumber"],
   ["firebaseui.auth.data.country", "goog.string"],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/utils/phonenumber_test.js",
   ["firebaseui.auth.PhoneNumberTest"],
-  ["firebaseui.auth.PhoneNumber", "goog.testing.jsunit"],
-  {}
+  ["firebaseui.auth.PhoneNumber", "goog.testing.jsunit"]
 );
 goog.addDependency(
   "../../../../javascript/utils/redirectstatus.js",
   ["firebaseui.auth.RedirectStatus"],
   [],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/utils/redirectstatus_test.js",
   ["firebaseui.auth.RedirectStatusTest"],
-  ["firebaseui.auth.RedirectStatus", "goog.testing.jsunit"],
-  {}
+  ["firebaseui.auth.RedirectStatus", "goog.testing.jsunit"]
 );
 goog.addDependency(
   "../../../../javascript/utils/sni.js",
   ["firebaseui.auth.sni"],
   [],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/utils/sni_test.js",
   ["firebaseui.auth.sniTest"],
-  ["firebaseui.auth.sni", "goog.testing.jsunit"],
-  {}
+  ["firebaseui.auth.sni", "goog.testing.jsunit"]
 );
 goog.addDependency(
   "../../../../javascript/utils/storage.js",
@@ -1578,8 +1500,7 @@ goog.addDependency(
     "goog.storage.mechanism.HTML5LocalStorage",
     "goog.storage.mechanism.HTML5SessionStorage",
     "goog.storage.mechanism.mechanismfactory",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/utils/storage_test.js",
@@ -1597,8 +1518,7 @@ goog.addDependency(
     "goog.storage.mechanism.mechanismfactory",
     "goog.testing.PropertyReplacer",
     "goog.testing.jsunit",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/utils/util.js",
@@ -1613,7 +1533,7 @@ goog.addDependency(
     "goog.userAgent",
     "goog.window",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/utils/util_test.js",
@@ -1627,7 +1547,7 @@ goog.addDependency(
     "goog.testing.jsunit",
     "goog.testing.recordFunction",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/authui.js",
@@ -1677,7 +1597,7 @@ goog.addDependency(
     "goog.events",
     "goog.events.EventType",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/authui_test.js",
@@ -1719,13 +1639,13 @@ goog.addDependency(
     "goog.testing.mockmatchers",
     "goog.testing.recordFunction",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/authuierror.js",
   ["firebaseui.auth.AuthUIError"],
   ["firebaseui.auth.soy2.strings"],
-  { module: "goog" }
+  { lang: "es6", module: "goog" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/authuierror_test.js",
@@ -1735,7 +1655,7 @@ goog.addDependency(
     "firebaseui.auth.soy2.strings",
     "goog.testing.testSuite",
   ],
-  { module: "goog" }
+  { lang: "es6", module: "goog" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/config.js",
@@ -1753,7 +1673,7 @@ goog.addDependency(
     "goog.object",
     "goog.uri.utils",
   ],
-  { module: "goog" }
+  { lang: "es6", module: "goog" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/config_test.js",
@@ -1769,7 +1689,7 @@ goog.addDependency(
     "goog.testing.PropertyReplacer",
     "goog.testing.testSuite",
   ],
-  { module: "goog" }
+  { lang: "es6", module: "goog" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/dispatcher.js",
@@ -1785,7 +1705,7 @@ goog.addDependency(
     "goog.asserts",
     "goog.uri.utils",
   ],
-  { module: "goog" }
+  { lang: "es6", module: "goog" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/dispatcher_test.js",
@@ -1809,7 +1729,7 @@ goog.addDependency(
     "goog.testing.recordFunction",
     "goog.testing.testSuite",
   ],
-  { module: "goog" }
+  { lang: "es6", module: "goog" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/exports_app.js",
@@ -1821,7 +1741,7 @@ goog.addDependency(
     "firebaseui.auth.widget.Config",
     "goog.Promise",
   ],
-  {}
+  { lang: "es5" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/firebaseuihandler.js",
@@ -1841,7 +1761,7 @@ goog.addDependency(
     "goog.Promise",
     "goog.dom",
   ],
-  { module: "goog" }
+  { lang: "es6", module: "goog" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/firebaseuihandler_test.js",
@@ -1867,7 +1787,7 @@ goog.addDependency(
     "goog.testing.testSuite",
     "goog.userAgent",
   ],
-  { module: "goog" }
+  { lang: "es6", module: "goog" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/actioncode.js",
@@ -1898,7 +1818,7 @@ goog.addDependency(
     "firebaseui.auth.widget.handler",
     "firebaseui.auth.widget.handler.common",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/actioncode_test.js",
@@ -1917,7 +1837,7 @@ goog.addDependency(
     "goog.testing.events",
     "goog.testing.recordFunction",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/anonymoususermismatch.js",
@@ -1927,8 +1847,7 @@ goog.addDependency(
     "firebaseui.auth.widget.HandlerName",
     "firebaseui.auth.widget.handler",
     "firebaseui.auth.widget.handler.common",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/anonymoususermismatch_test.js",
@@ -1936,8 +1855,7 @@ goog.addDependency(
   [
     "firebaseui.auth.widget.handler.handleAnonymousUserMismatch",
     "firebaseui.auth.widget.handler.testHelper",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/callback.js",
@@ -1954,7 +1872,7 @@ goog.addDependency(
     "firebaseui.auth.widget.handler.common",
     "goog.array",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/callback_test.js",
@@ -1982,7 +1900,7 @@ goog.addDependency(
     "goog.testing.PropertyReplacer",
     "goog.testing.jsunit",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/common.js",
@@ -2006,7 +1924,7 @@ goog.addDependency(
     "goog.Promise",
     "goog.array",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/common_test.js",
@@ -2039,7 +1957,7 @@ goog.addDependency(
     "goog.testing.AsyncTestCase",
     "goog.testing.recordFunction",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/differentdeviceerror.js",
@@ -2049,8 +1967,7 @@ goog.addDependency(
     "firebaseui.auth.widget.HandlerName",
     "firebaseui.auth.widget.handler",
     "firebaseui.auth.widget.handler.common",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/differentdeviceerror_test.js",
@@ -2058,8 +1975,7 @@ goog.addDependency(
   [
     "firebaseui.auth.widget.handler.handleDifferentDeviceError",
     "firebaseui.auth.widget.handler.testHelper",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/emaillinkconfirmation.js",
@@ -2070,8 +1986,7 @@ goog.addDependency(
     "firebaseui.auth.widget.HandlerName",
     "firebaseui.auth.widget.handler",
     "firebaseui.auth.widget.handler.common",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/emaillinkconfirmation_test.js",
@@ -2085,8 +2000,7 @@ goog.addDependency(
     "goog.events.KeyCodes",
     "goog.testing.events",
     "goog.testing.recordFunction",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/emaillinknewdevicelinking.js",
@@ -2098,8 +2012,7 @@ goog.addDependency(
     "firebaseui.auth.widget.HandlerName",
     "firebaseui.auth.widget.handler",
     "firebaseui.auth.widget.handler.common",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/emaillinknewdevicelinking_test.js",
@@ -2108,8 +2021,7 @@ goog.addDependency(
     "firebaseui.auth.widget.handler.handleEmailLinkNewDeviceLinking",
     "firebaseui.auth.widget.handler.testHelper",
     "goog.testing.recordFunction",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/emaillinksignincallback.js",
@@ -2131,7 +2043,7 @@ goog.addDependency(
     "firebaseui.auth.widget.handler.handleEmailLinkNewDeviceLinking",
     "goog.Promise",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/emaillinksignincallback_test.js",
@@ -2147,7 +2059,7 @@ goog.addDependency(
     "firebaseui.auth.widget.handler.testHelper",
     "goog.dom.forms",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/emaillinksigninlinking.js",
@@ -2159,8 +2071,7 @@ goog.addDependency(
     "firebaseui.auth.widget.HandlerName",
     "firebaseui.auth.widget.handler",
     "firebaseui.auth.widget.handler.common",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/emaillinksigninlinking_test.js",
@@ -2173,8 +2084,7 @@ goog.addDependency(
     "firebaseui.auth.widget.handler.handleEmailLinkSignInLinking",
     "firebaseui.auth.widget.handler.handleEmailLinkSignInSent",
     "firebaseui.auth.widget.handler.testHelper",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/emaillinksigninsent.js",
@@ -2184,8 +2094,7 @@ goog.addDependency(
     "firebaseui.auth.widget.Handler",
     "firebaseui.auth.widget.HandlerName",
     "firebaseui.auth.widget.handler",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/emaillinksigninsent_test.js",
@@ -2198,8 +2107,7 @@ goog.addDependency(
     "firebaseui.auth.widget.handler.handleEmailNotReceived",
     "firebaseui.auth.widget.handler.testHelper",
     "goog.testing.recordFunction",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/emailmismatch.js",
@@ -2211,8 +2119,7 @@ goog.addDependency(
     "firebaseui.auth.widget.HandlerName",
     "firebaseui.auth.widget.handler",
     "firebaseui.auth.widget.handler.common",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/emailmismatch_test.js",
@@ -2227,8 +2134,7 @@ goog.addDependency(
     "firebaseui.auth.widget.handler.handleFederatedSignIn",
     "firebaseui.auth.widget.handler.handleProviderSignIn",
     "firebaseui.auth.widget.handler.testHelper",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/emailnotreceived.js",
@@ -2239,8 +2145,7 @@ goog.addDependency(
     "firebaseui.auth.widget.HandlerName",
     "firebaseui.auth.widget.handler",
     "firebaseui.auth.widget.handler.common",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/emailnotreceived_test.js",
@@ -2254,8 +2159,7 @@ goog.addDependency(
     "firebaseui.auth.widget.handler.handleEmailNotReceived",
     "firebaseui.auth.widget.handler.testHelper",
     "goog.testing.recordFunction",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/federatedlinking.js",
@@ -2267,8 +2171,7 @@ goog.addDependency(
     "firebaseui.auth.widget.HandlerName",
     "firebaseui.auth.widget.handler",
     "firebaseui.auth.widget.handler.common",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/federatedlinking_test.js",
@@ -2283,8 +2186,7 @@ goog.addDependency(
     "firebaseui.auth.widget.handler.handleProviderSignIn",
     "firebaseui.auth.widget.handler.testHelper",
     "goog.Promise",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/federatedredirect.js",
@@ -2297,7 +2199,7 @@ goog.addDependency(
     "firebaseui.auth.widget.handler.common",
     "goog.asserts",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/federatedredirect_test.js",
@@ -2310,7 +2212,7 @@ goog.addDependency(
     "firebaseui.auth.widget.handler.handleFederatedRedirect",
     "firebaseui.auth.widget.handler.testHelper",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/federatedsignin.js",
@@ -2321,8 +2223,7 @@ goog.addDependency(
     "firebaseui.auth.widget.HandlerName",
     "firebaseui.auth.widget.handler",
     "firebaseui.auth.widget.handler.common",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/federatedsignin_test.js",
@@ -2337,7 +2238,7 @@ goog.addDependency(
     "firebaseui.auth.widget.handler.handleProviderSignIn",
     "firebaseui.auth.widget.handler.testHelper",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/handler.js",
@@ -2347,7 +2248,7 @@ goog.addDependency(
     "firebaseui.auth.widget.handler",
   ],
   ["goog.asserts"],
-  {}
+  { lang: "es5" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/handler_test.js",
@@ -2386,8 +2287,7 @@ goog.addDependency(
     "firebaseui.auth.widget.handler.handleUnsupportedProvider",
     "firebaseui.auth.widget.handler.handleVerifyAndChangeEmail",
     "firebaseui.auth.widget.handler.testHelper",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/passwordlinking.js",
@@ -2401,8 +2301,7 @@ goog.addDependency(
     "firebaseui.auth.widget.HandlerName",
     "firebaseui.auth.widget.handler",
     "firebaseui.auth.widget.handler.common",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/passwordlinking_test.js",
@@ -2421,8 +2320,7 @@ goog.addDependency(
     "goog.dom",
     "goog.dom.forms",
     "goog.testing.events",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/passwordrecovery.js",
@@ -2435,8 +2333,7 @@ goog.addDependency(
     "firebaseui.auth.widget.HandlerName",
     "firebaseui.auth.widget.handler",
     "firebaseui.auth.widget.handler.common",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/passwordrecovery_test.js",
@@ -2453,8 +2350,7 @@ goog.addDependency(
     "goog.events.KeyCodes",
     "goog.testing.events",
     "goog.testing.events.Event",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/passwordsignin.js",
@@ -2465,8 +2361,7 @@ goog.addDependency(
     "firebaseui.auth.widget.HandlerName",
     "firebaseui.auth.widget.handler",
     "firebaseui.auth.widget.handler.common",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/passwordsignin_test.js",
@@ -2484,8 +2379,7 @@ goog.addDependency(
     "goog.dom.forms",
     "goog.testing.events",
     "goog.testing.recordFunction",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/passwordsignup.js",
@@ -2502,7 +2396,7 @@ goog.addDependency(
     "goog.json",
     "goog.string",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/passwordsignup_test.js",
@@ -2519,7 +2413,7 @@ goog.addDependency(
     "goog.dom.forms",
     "goog.testing.events",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/phonesigninfinish.js",
@@ -2535,7 +2429,7 @@ goog.addDependency(
     "firebaseui.auth.widget.handler",
     "firebaseui.auth.widget.handler.common",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/phonesigninfinish_test.js",
@@ -2554,7 +2448,7 @@ goog.addDependency(
     "goog.dom.forms",
     "goog.testing.recordFunction",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/phonesigninstart.js",
@@ -2571,8 +2465,7 @@ goog.addDependency(
     "firebaseui.auth.widget.HandlerName",
     "firebaseui.auth.widget.handler",
     "firebaseui.auth.widget.handler.common",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/phonesigninstart_test.js",
@@ -2592,7 +2485,7 @@ goog.addDependency(
     "goog.dom.forms",
     "goog.testing.events",
   ],
-  {}
+  { lang: "es5" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/prefilledemailsignin.js",
@@ -2604,7 +2497,7 @@ goog.addDependency(
     "firebaseui.auth.widget.handler",
     "firebaseui.auth.widget.handler.common",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/prefilledemailsignin_test.js",
@@ -2615,7 +2508,7 @@ goog.addDependency(
     "firebaseui.auth.widget.handler.handlePrefilledEmailSignIn",
     "firebaseui.auth.widget.handler.testHelper",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/providersignin.js",
@@ -2628,7 +2521,7 @@ goog.addDependency(
     "firebaseui.auth.widget.handler",
     "firebaseui.auth.widget.handler.common",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/providersignin_test.js",
@@ -2657,7 +2550,7 @@ goog.addDependency(
     "goog.dom.dataset",
     "goog.testing.events",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/sendemaillinkforsignin.js",
@@ -2668,8 +2561,7 @@ goog.addDependency(
     "firebaseui.auth.widget.HandlerName",
     "firebaseui.auth.widget.handler",
     "firebaseui.auth.widget.handler.common",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/sendemaillinkforsignin_test.js",
@@ -2682,8 +2574,7 @@ goog.addDependency(
     "firebaseui.auth.widget.handler.testHelper",
     "goog.dom.forms",
     "goog.testing.recordFunction",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/signin.js",
@@ -2694,8 +2585,7 @@ goog.addDependency(
     "firebaseui.auth.widget.HandlerName",
     "firebaseui.auth.widget.handler",
     "firebaseui.auth.widget.handler.common",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/signin_test.js",
@@ -2716,7 +2606,7 @@ goog.addDependency(
     "goog.testing.events",
     "goog.testing.events.Event",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/starter.js",
@@ -2725,8 +2615,7 @@ goog.addDependency(
     "firebaseui.auth.util",
     "firebaseui.auth.widget.Config",
     "firebaseui.auth.widget.handler",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/starter_test.js",
@@ -2736,8 +2625,7 @@ goog.addDependency(
     "firebaseui.auth.util",
     "firebaseui.auth.widget.handler.startSignIn",
     "firebaseui.auth.widget.handler.testHelper",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/testhelper.js",
@@ -2774,7 +2662,7 @@ goog.addDependency(
     "goog.testing.jsunit",
     "goog.testing.recordFunction",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/unauthorizeduser.js",
@@ -2786,7 +2674,7 @@ goog.addDependency(
     "firebaseui.auth.widget.handler",
     "firebaseui.auth.widget.handler.common",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/unauthorizeduser_test.js",
@@ -2795,7 +2683,7 @@ goog.addDependency(
     "firebaseui.auth.widget.handler.handleUnauthorizedUser",
     "firebaseui.auth.widget.handler.testHelper",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/unsupportedprovider.js",
@@ -2806,8 +2694,7 @@ goog.addDependency(
     "firebaseui.auth.widget.HandlerName",
     "firebaseui.auth.widget.handler",
     "firebaseui.auth.widget.handler.common",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/handler/unsupportedprovider_test.js",
@@ -2815,14 +2702,13 @@ goog.addDependency(
   [
     "firebaseui.auth.widget.handler.handleUnsupportedProvider",
     "firebaseui.auth.widget.handler.testHelper",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../../javascript/widgets/uihandlerconfig.js",
   ["firebaseui.auth.widget.UiHandlerConfig"],
   ["firebaseui.auth.Config", "firebaseui.auth.log", "firebaseui.auth.util"],
-  { module: "goog" }
+  { lang: "es6", module: "goog" }
 );
 goog.addDependency(
   "../../../../javascript/widgets/uihandlerconfig_test.js",
@@ -2836,7 +2722,7 @@ goog.addDependency(
     "goog.testing.recordFunction",
     "goog.testing.testSuite",
   ],
-  { module: "goog" }
+  { lang: "es6", module: "goog" }
 );
 goog.addDependency(
   "../../../../soy/elements_test.js",
@@ -2850,7 +2736,7 @@ goog.addDependency(
     "goog.soy",
     "goog.testing.jsunit",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../soy/pages_test.js",
@@ -2863,7 +2749,7 @@ goog.addDependency(
     "goog.soy",
     "goog.testing.jsunit",
   ],
-  {}
+  { lang: "es6" }
 );
 goog.addDependency(
   "../../../../soy/viewhelper.js",
@@ -2875,8 +2761,7 @@ goog.addDependency(
     "goog.dom.safe",
     "goog.html.TrustedResourceUrl",
     "goog.string.Const",
-  ],
-  {}
+  ]
 );
 goog.addDependency(
   "../../../google-closure-templates/javascript/soyutils_usegoog.js",
@@ -2910,6 +2795,20 @@ goog.addDependency(
     "goog.string",
     "goog.string.Const",
     "goog.string.StringBuffer",
-  ],
-  {}
+  ]
+);
+goog.addDependency(
+  "../../../../javascript/ui/page/emaillinksigninlinkingdifferentdevice_test.js",
+  ["firebaseui.auth.ui.page.EmailLinkSignInLinkingDifferentDeviceTest"],
+  [
+    "firebaseui.auth.ui.element.FormTestHelper",
+    "firebaseui.auth.ui.element.InfoBarTestHelper",
+    "firebaseui.auth.ui.element.TosPpTestHelper",
+    "firebaseui.auth.ui.page.EmailLinkSignInLinkingDifferentDevice",
+    "firebaseui.auth.ui.page.PageTestHelper",
+    "goog.dom",
+    "goog.dom.TagName",
+    "goog.testing.MockClock",
+    "goog.testing.jsunit",
+  ]
 );
